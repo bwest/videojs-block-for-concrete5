@@ -1,0 +1,33 @@
+Version 0.9
+
+videojs-block-for-concrete5 is my attempt to create a block plugin for the Concrete5 CMS (http://www.concrete5.org) which allows a user to embed the open source VideoJS media player (http://www.videojs.com) into the page content of a website using the Concrete5 CMS.
+
+This block was created using the 'video' block plugin which comes default as part of a Concrete5 installation as a reference.  Credit belongs to Tony Trupp <tony@concrete5.org>, Remo Laubacher <remo.laubacher@gmail.com> and Andrew Embler <andrew@concrete5.org> for develepment of the 'video' block.
+
+Feedback and contributions toward further development of this project are welcome.
+
+
+INSTALLATION
+
+To install, place the 'videojs_player' folder into the 'blocks' directory of your Concrete5 installation.  Log in to your Concrete5 installation and go to the Concrete5 Dashboard, then to the "Add Functionality" section.  'VideoJS Player' should now be available in the 'New' column; click Install. VideoJS Player should now be available when adding a new block to a content area in your Concrete5 installation.
+
+
+RELEASE NOTES:
+
+Version 0.9
+- VideoJS 2.0.2
+- select .mp4, .webm and .ogg videos for reference
+- select poster image
+- select subtitle file (only coded for english en-US subtitles)
+- custom video player height and width
+
+KNOWN ISSUES:
+- unsuccessful in getting the player to center within a content area
+
+FUTURE CONSIDERATIONS:
+
+- limit video file selections to .mp4, .webm and .ogg files respectively
+- include dynamic coding support for more subtitle languages
+- include help (?) instructions for add/edit views
+- allow advanced configuration options more in-line with the VideoJS Embed Builder (http://videojs.com/embed-builder/)
+- possibly include the flowplayer Flash player in block for self-contained and independent operation (debatable)

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btVideoJS">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="mID" type="I">
+			<unsigned />
+		</field>
+		<field name="wID" type="I">
+			<unsigned />
+		</field>
+		<field name="oID" type="I">
+			<unsigned />
+		</field>
+		<field name="pID" type="I">
+			<unsigned />
+		</field>
+		<field name="sID" type="I">
+			<unsigned />
+		</field>
+		<field name="width" type="I">
+			<unsigned />
+		</field>
+		<field name="height" type="I">
+			<unsigned />
+		</field>	
+	</table>
+</schema>

@@ -1,3 +1,7 @@
+This player used the free & open source VideoJS player (http://videojs.com/).
+
+-----
+
 Version 0.9
 
 videojs-block-for-concrete5 is my attempt to create a block plugin for the Concrete5 CMS (http://www.concrete5.org) which allows a user to embed the open source VideoJS media player (http://www.videojs.com) into the page content of a website using the Concrete5 CMS.

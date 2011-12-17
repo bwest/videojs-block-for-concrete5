@@ -16,10 +16,10 @@ INSTALLATION
 To install, place the 'videojs_player' folder into the 'blocks' directory of your Concrete5 installation.  Log in to your Concrete5 installation and go to the Concrete5 Dashboard, then to the "Add Functionality" section.  'VideoJS Player' should now be available in the 'New' column; click Install. VideoJS Player should now be available when adding a new block to a content area in your Concrete5 installation.
 
 git clone:
-/site$ git clone https://dtan@github.com/dtan/videojs-block-for-concrete5.git blocks/videojs_player
+/site$ git clone https://github.com/dtan/videojs-block-for-concrete5.git blocks/videojs_player
 
 as a git submodule:
-/site$ git submodule add https://dtan@github.com/dtan/videojs-block-for-concrete5.git blocks/videojs_player
+/site$ git submodule add https://github.com/dtan/videojs-block-for-concrete5.git blocks/videojs_player
 
 
 RELEASE NOTES:
